@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Pomodoro Timer</title>
+
+		<!-- import bootstrap -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link rel="stylesheet" href="css/game.css">
+	</head>
+
+	<body>
+		<div class="container"> 
+			<h1 class="animated bounceIn">Pomodoro Timer</h1>
+
+			<div class="outer">
+				<div class="middle">
+					<div class="inner">
+						<img class="animated bounceInDown" src="http://leonardlabita.com/freeCodeCamp/images/pomodoro/pomodoro.png" style="width:150px; height:150px" alt="logo"/>
+
+						<div class="clock-text">Working</div>
+						<div class="clock-time">25:00</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- grid system total 12grid -->
+			<div class="row button-container">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+					<span class="button-heading">Break</span>
+					<p>
+					<button class="break-min"><i class="fa fa-minus"></i></button>
+
+					<span class="time break-time">5</span>
+
+					<button class="break-plus"><i class="fa fa-plus"></i></button>
+					</p>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+					<button class="start-btn">Start</button>
+					<i id="bell" class="fa fa-bell fa-1x"></i>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+					<span class="button-heading">Session</span>
+					<p>
+					<button class="session-min"><i class="fa fa-minus"></i></button>
+					<span class="time session-time">25</span>
+					<button class="session-plus"><i class="fa fa-plus"></i></button>
+					</p>   
+				</div>
+			</div>
+		</div> 
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/pomodoro.js"></script>
+
+	</body>
+</html>	
+

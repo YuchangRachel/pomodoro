@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>TodoList</title>
+	</head>
+	<body>
+		<form action="./index.php" method="post">
+			<h3>ToDoList:  </h3>
+			<input type="text" name="name" size="10" />
+
+			<h3>Confirm choices(multiple choices): </h3>
+			<input type="checkbox" name="achecked" checked="checked" value="1" />
+			Work alone
+			<input type="checkbox" name="bchecked" value="2" />
+			Work with friends(2~3)
+			<input type="checkbox" name="cchecked" value="3" />
+			Work in a team
+
+			<h3>Pick one!!!</h3>
+			<input type="radio" name="aradio" value="a1" />Hard!
+			<input type="radio" name="aradio" value="a2" />Average!
+			<input type="radio" name="aradio" value="a3" />Simple!
+
+			<h3>Working Place List: </h3>
+			<select name="aselect" size="1">
+				<option value="domestic">Domestic</option>
+				<option value="foreign">Foreign</option>
+				<option value="outerspace">Outerspace</option>
+			</select>
+			
+			<input type="RESET" value="Reset" />
+
+			<input type="submit" value="Submit" />
+
+
+		</form>
+	</body>
+</html>
